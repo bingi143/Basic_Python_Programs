@@ -10,7 +10,7 @@
 
 
 import random
-def m1(number):
+def head_tails_percentage(number):
     '''
           Description: 
                 this function is getting head tails percentage
@@ -36,7 +36,7 @@ def m1(number):
 
 def main():
     number=int(input("Enter number:"))
-    Heads_Percentage,Tails_Percentage=m1(number)
+    Heads_Percentage,Tails_Percentage=head_tails_percentage(number)
     print("Heads Percentage is :",Heads_Percentage)
     print("Tails percentage is :",Tails_Percentage)
 
