@@ -9,7 +9,7 @@
 '''
 
 
-def vowel_or_consonent(ch):
+def vowel_or_consonent(char_):
     '''
           Description: 
                 this function is identify vowel or consonent
@@ -18,15 +18,15 @@ def vowel_or_consonent(ch):
           Return : 
                 this function not returning any thing
     '''
-    ch=ch.lower()
-    if(ch=='a'or ch=='e' or ch=='i' or ch=='o' or ch=='u'):
+    char_=char_.lower()
+    if(char_=='a'or char_=='e' or char_=='i' or char_=='o' or char_=='u'):
         print("given Character is Vowel")
     else:
         print("Given Character is consonent")
 
     
 def main():
-    ch='g'
+    char_='g'
     vowel_or_consonent(ch)
 
 
